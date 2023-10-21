@@ -1,0 +1,16 @@
+#toolbar-highlight-timestamp {
+    color: white;
+    padding: 5px;
+    z-index: 99999;
+    display: none;
+    position: absolute;
+    height: 45px;
+    width: 220px;
+    background-color: #212121;
+    border-radius: .25rem;
+    transition: .2s;
+}
+
+#toolbar-highlight-timestamp.active {
+    display: block;
+}
